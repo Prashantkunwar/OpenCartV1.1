@@ -1,7 +1,5 @@
 # OpenCartV1.1 Test Automation Framework
 
-
-Free and open-source eCommerce platform. The most popular ASP.NET Core shopping cart in the world based on Microsoft technologies. 
 This project is an automated test suite for the OpenCart web application, using Java, Selenium WebDriver, TestNG, and Maven.
 
 ## Project Structure
@@ -31,6 +29,12 @@ This project is an automated test suite for the OpenCart web application, using 
    
    
 2.Create and configure config.properties with your environment details:
+
+browser=chrome
+url=https://demo.opencart.com/
+username=demo
+password=demo123
+
 
 
 
