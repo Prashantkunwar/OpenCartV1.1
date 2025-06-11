@@ -30,30 +30,11 @@ This project is an automated test suite for the OpenCart web application, using 
    
 2.Create and configure config.properties with your environment details:
 
-properties
-Copy
-Edit
 browser=chrome
 url=https://demo.opencart.com/
 username=demo
 password=demo123
 
-3. Add target/ and config.properties to .gitignore to avoid committing build files and sensitive info.
-
-Running Tests
-Using Maven:
-
-bash
-Copy
-Edit
-mvn clean test
-Using TestNG suite:
-
-bash
-Copy
-Edit
-mvn clean test -DsuiteXmlFile=testng.xml
-Or run the batch script:
 
 
 
