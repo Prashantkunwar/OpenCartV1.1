@@ -1,59 +1,102 @@
-# OpenCartV1.1 Test Automation Framework
+# TutorialsNinja Test Automation Framework
 
-This project is an automated test suite for the OpenCart web application, using Java, Selenium WebDriver, TestNG, and Maven.
+This project is an automated test suite for the **TutorialsNinja Demo eCommerce Site** ([tutorialsninja.com/demo](https://tutorialsninja.com/demo/)). It is built using **Java**, **Selenium WebDriver**, **TestNG**, and **Maven**, with a Page Object Model (POM) design pattern for scalable and maintainable test code.
 
-## Project Structure
+---
 
-- `src/` - Java source code for tests
-- `testData/` - Test input data files
-- `config.properties` - Configuration file (browser, URL, credentials)
-- `pom.xml` - Maven build file
-- `.gitignore` - Files/folders ignored by Git
-- `run.bat` - Batch script to run tests on Windows
-- `testng.xml` - TestNG test suite definition
+## 📝 About TutorialsNinja Demo
 
-## Prerequisites
+[TutorialsNinja Demo](https://tutorialsninja.com/demo/) is a practice eCommerce web application often used for testing and learning purposes. It replicates key online shopping features like:
 
-- Java 8 or higher
-- Maven 3.6 or higher
-- ChromeDriver or GeckoDriver in your system PATH
-- Internet access for dependencies
+* Product listing
+* Add to cart
+* Checkout process
+* User registration & login
+* Admin dashboard (if used)
 
-## Setup
+---
 
-1. Clone the repository:
+## 🧪 Testing Features
 
-   ```bash
-   git clone https://github.com/Prashantkunwar/OpenCartV1.1.git
-   cd OpenCartV1.1
-   
-   
-2.Create and configure config.properties with your environment details:
+This framework includes automated test cases that validate the following features:
 
-browser=chrome
-url=https://demo.opencart.com/
-username=demo
-password=demo123
+* ✅ User login/logout
+* 🛒 Add to cart functionality
+* 🔍 Product search and filtering
+* 🧾 Checkout process validation
+* 📝 Registration and form submission
+* ❌ Negative test scenarios (invalid login, missing inputs)
+* 🌍 Cross-browser testing (Chrome, Firefox)
+* 🧪 TestNG test suite execution
+* 📋 Data-driven tests using Excel (Apache POI)
+* 📊 HTML reports via ExtentReports
+
+---
+
+## 📁 Project Structure
+
+```
+TutorialsNinjaTest/
+│
+├── src/                         # Java source code (pages, tests, utilities)
+├── testData/                    # Excel or CSV test inputs
+├── config.properties            # Configuration file (browser, URL, login)
+├── pom.xml                      # Maven dependencies and plugins
+├── .gitignore                   # Git ignored files
+├── run.bat                      # Batch file for Windows test execution
+└── testng.xml                   # Main TestNG test suite
+```
+
+---
+
+## 🛠️ Prerequisites
+
+* Java 8 or higher
+* Maven 3.6+
+* ChromeDriver or GeckoDriver available in system PATH
+* Internet connection for Maven to download dependencies
+
+---
+
+## ▶️ Running Tests
+
+* **With Maven**
+
+  ```bash
+  mvn clean test
+  ```
+
+* **Specify TestNG suite**
+
+  ```bash
+  mvn clean test -DsuiteXmlFile=testng.xml
+  ```
+
+* **Run via batch file (Windows)**
+
+  ```bash
+  run.bat
+  ```
+
+---
+
+## 📊 Test Reports
+
+After test execution, reports are available at:
+
+```
+target/test-output/
+```
+
+You can find detailed test execution results, including ExtentReports if configured.
 
 
 
+## 🛟 Support
 
-Contributing
-Feel free to fork the repo and submit improvements or fixes.
+For bugs or help, open an [Issue](https://github.com/Prashantkunwar/OpenCartV1.1/issues) on GitHub.
 
-Support
-For any issues or questions, please open an issue on the GitHub repository.
+---
 
-Thanks for checking out this project!
-Happy testing! 🚀
-
-
-
-You can copy this, create a `README.md` file in your project root, paste it, and push it to your GitHub repository. Need help with those steps? Just ask!
-
-
-
-
-
-
-
+Thanks for using this framework!
+**Happy testing! 🚀**
