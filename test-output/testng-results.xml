@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="21" failed="9" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-09T22:52:03 EDT" name="Master Suite" finished-at="2025-06-09T22:57:05 EDT" duration-ms="301697">
+    <groups>
+      <group name="Master">
+        <method signature="TC001_AccountRegistrationTest.RegistrationTest()[pri:2, instance:testCases.TC001_AccountRegistrationTest@2b40ff9c]" name="RegistrationTest" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC002_AccountLoginTest.TestLogin()[pri:3, instance:testCases.TC002_AccountLoginTest@70ed52de]" name="TestLogin" class="testCases.TC002_AccountLoginTest"/>
+        <method signature="TC001_AccountRegistrationTest.RegistrationTest()[pri:2, instance:testCases.TC001_AccountRegistrationTest@15a34df2]" name="RegistrationTest" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC002_AccountLoginTest.TestLogin()[pri:3, instance:testCases.TC002_AccountLoginTest@5b38c1ec]" name="TestLogin" class="testCases.TC002_AccountLoginTest"/>
+        <method signature="TC001_AccountRegistrationTest.RegistrationTest()[pri:2, instance:testCases.TC001_AccountRegistrationTest@55cb6996]" name="RegistrationTest" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC002_AccountLoginTest.TestLogin()[pri:3, instance:testCases.TC002_AccountLoginTest@1807e3f6]" name="TestLogin" class="testCases.TC002_AccountLoginTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC002_AccountLoginTest.TestLogin()[pri:3, instance:testCases.TC002_AccountLoginTest@70ed52de]" name="TestLogin" class="testCases.TC002_AccountLoginTest"/>
+        <method signature="TC002_AccountLoginTest.TestLogin()[pri:3, instance:testCases.TC002_AccountLoginTest@5b38c1ec]" name="TestLogin" class="testCases.TC002_AccountLoginTest"/>
+        <method signature="TC002_AccountLoginTest.TestLogin()[pri:3, instance:testCases.TC002_AccountLoginTest@1807e3f6]" name="TestLogin" class="testCases.TC002_AccountLoginTest"/>
+      </group> <!-- Sanity -->
+      <group name="DataDriven">
+        <method signature="TC003_LoginDDT.loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@496bc455]" name="loginDataDTesting" class="testCases.TC003_LoginDDT"/>
+        <method signature="TC003_LoginDDT.loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@338fc1d8]" name="loginDataDTesting" class="testCases.TC003_LoginDDT"/>
+        <method signature="TC003_LoginDDT.loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@480d3575]" name="loginDataDTesting" class="testCases.TC003_LoginDDT"/>
+      </group> <!-- DataDriven -->
+      <group name="Regression">
+        <method signature="TC001_AccountRegistrationTest.RegistrationTest()[pri:2, instance:testCases.TC001_AccountRegistrationTest@2b40ff9c]" name="RegistrationTest" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC001_AccountRegistrationTest.RegistrationTest()[pri:2, instance:testCases.TC001_AccountRegistrationTest@15a34df2]" name="RegistrationTest" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC001_AccountRegistrationTest.RegistrationTest()[pri:2, instance:testCases.TC001_AccountRegistrationTest@55cb6996]" name="RegistrationTest" class="testCases.TC001_AccountRegistrationTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-06-09T22:52:03 EDT" name="TestChrome" finished-at="2025-06-09T22:53:34 EDT" duration-ms="91484">
+      <class name="testCases.TC003_LoginDDT">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@496bc455]" started-at="2025-06-09T22:52:23 EDT" name="setup" finished-at="2025-06-09T22:52:26 EDT" duration-ms="3218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@496bc455]" started-at="2025-06-09T22:52:27 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:52:30 EDT" duration-ms="3015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prashantkunwar555@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adminadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@496bc455]" started-at="2025-06-09T22:52:30 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:52:42 EDT" duration-ms="11808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[caolina@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adminfhj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@496bc455]" started-at="2025-06-09T22:52:42 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:52:45 EDT" duration-ms="2664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prashantkunwar555@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adminadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@496bc455]" started-at="2025-06-09T22:52:45 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:52:57 EDT" duration-ms="11844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ram@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[buntamese]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@496bc455]" started-at="2025-06-09T22:52:57 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:53:09 EDT" duration-ms="12188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prashantkunwar555@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vomica@bn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@496bc455]" started-at="2025-06-09T22:53:09 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:53:12 EDT" duration-ms="3148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prashantkunwar555@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adminadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@496bc455]" started-at="2025-06-09T22:53:12 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:53:16 EDT" duration-ms="3663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prashantkunwar555@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adminadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC003_LoginDDT@496bc455]" started-at="2025-06-09T22:53:16 EDT" name="teardown" finished-at="2025-06-09T22:53:16 EDT" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC003_LoginDDT -->
+      <class name="testCases.TC001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@2b40ff9c]" started-at="2025-06-09T22:52:03 EDT" name="setup" finished-at="2025-06-09T22:52:13 EDT" duration-ms="10057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="RegistrationTest()[pri:2, instance:testCases.TC001_AccountRegistrationTest@2b40ff9c]" started-at="2025-06-09T22:52:13 EDT" name="RegistrationTest" finished-at="2025-06-09T22:52:17 EDT" duration-ms="3462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@2b40ff9c]" started-at="2025-06-09T22:52:17 EDT" name="teardown" finished-at="2025-06-09T22:52:17 EDT" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+      <class name="testCases.TC0004_CartAndCheckOutTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0004_CartAndCheckOutTest@59402b8f]" started-at="2025-06-09T22:53:16 EDT" name="setup" finished-at="2025-06-09T22:53:20 EDT" duration-ms="3464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CartAndCheckOutTest()[pri:1, instance:testCases.TC0004_CartAndCheckOutTest@59402b8f]" started-at="2025-06-09T22:53:20 EDT" name="CartAndCheckOutTest" finished-at="2025-06-09T22:53:34 EDT" duration-ms="14476" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC0004_CartAndCheckOutTest.CartAndCheckOutTest(TC0004_CartAndCheckOutTest.java:71)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartAndCheckOutTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0004_CartAndCheckOutTest@59402b8f]" started-at="2025-06-09T22:53:34 EDT" name="teardown" finished-at="2025-06-09T22:53:34 EDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC0004_CartAndCheckOutTest -->
+      <class name="testCases.TC002_AccountLoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_AccountLoginTest@70ed52de]" started-at="2025-06-09T22:52:17 EDT" name="setup" finished-at="2025-06-09T22:52:20 EDT" duration-ms="3457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestLogin()[pri:3, instance:testCases.TC002_AccountLoginTest@70ed52de]" started-at="2025-06-09T22:52:20 EDT" name="TestLogin" finished-at="2025-06-09T22:52:23 EDT" duration-ms="2476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_AccountLoginTest@70ed52de]" started-at="2025-06-09T22:52:23 EDT" name="teardown" finished-at="2025-06-09T22:52:23 EDT" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC002_AccountLoginTest -->
+    </test> <!-- TestChrome -->
+    <test started-at="2025-06-09T22:53:36 EDT" name="TestLinux" finished-at="2025-06-09T22:55:38 EDT" duration-ms="122014">
+      <class name="testCases.TC003_LoginDDT">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@338fc1d8]" started-at="2025-06-09T22:54:11 EDT" name="setup" finished-at="2025-06-09T22:54:15 EDT" duration-ms="4218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@338fc1d8]" started-at="2025-06-09T22:54:15 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:54:26 EDT" duration-ms="11061" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prashantkunwar555@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adminadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testCases.TC003_LoginDDT.loginDataDTesting(TC003_LoginDDT.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@338fc1d8]" started-at="2025-06-09T22:54:26 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:54:37 EDT" duration-ms="10271" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[caolina@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adminfhj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC003_LoginDDT.loginDataDTesting(TC003_LoginDDT.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@338fc1d8]" started-at="2025-06-09T22:54:37 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:54:47 EDT" duration-ms="10260" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prashantkunwar555@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adminadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC003_LoginDDT.loginDataDTesting(TC003_LoginDDT.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@338fc1d8]" started-at="2025-06-09T22:54:48 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:54:58 EDT" duration-ms="10271" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ram@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[buntamese]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC003_LoginDDT.loginDataDTesting(TC003_LoginDDT.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@338fc1d8]" started-at="2025-06-09T22:54:58 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:55:08 EDT" duration-ms="10254" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prashantkunwar555@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vomica@bn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC003_LoginDDT.loginDataDTesting(TC003_LoginDDT.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@338fc1d8]" started-at="2025-06-09T22:55:08 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:55:18 EDT" duration-ms="10264" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prashantkunwar555@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adminadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC003_LoginDDT.loginDataDTesting(TC003_LoginDDT.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@338fc1d8]" started-at="2025-06-09T22:55:19 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:55:29 EDT" duration-ms="10254" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prashantkunwar555@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adminadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC003_LoginDDT.loginDataDTesting(TC003_LoginDDT.java:70)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC003_LoginDDT@338fc1d8]" started-at="2025-06-09T22:55:29 EDT" name="teardown" finished-at="2025-06-09T22:55:30 EDT" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC003_LoginDDT -->
+      <class name="testCases.TC001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@15a34df2]" started-at="2025-06-09T22:53:36 EDT" name="setup" finished-at="2025-06-09T22:53:47 EDT" duration-ms="10053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="RegistrationTest()[pri:2, instance:testCases.TC001_AccountRegistrationTest@15a34df2]" started-at="2025-06-09T22:53:47 EDT" name="RegistrationTest" finished-at="2025-06-09T22:53:50 EDT" duration-ms="3216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@15a34df2]" started-at="2025-06-09T22:53:50 EDT" name="teardown" finished-at="2025-06-09T22:53:51 EDT" duration-ms="798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+      <class name="testCases.TC002_AccountLoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_AccountLoginTest@5b38c1ec]" started-at="2025-06-09T22:53:51 EDT" name="setup" finished-at="2025-06-09T22:53:59 EDT" duration-ms="8325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestLogin()[pri:3, instance:testCases.TC002_AccountLoginTest@5b38c1ec]" started-at="2025-06-09T22:53:59 EDT" name="TestLogin" finished-at="2025-06-09T22:54:10 EDT" duration-ms="11136" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login Failed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login Failed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1079)
+at org.testng.Assert.assertEquals(Assert.java:1055)
+at testCases.TC002_AccountLoginTest.TestLogin(TC002_AccountLoginTest.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_AccountLoginTest@5b38c1ec]" started-at="2025-06-09T22:54:10 EDT" name="teardown" finished-at="2025-06-09T22:54:11 EDT" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC002_AccountLoginTest -->
+      <class name="testCases.TC0004_CartAndCheckOutTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0004_CartAndCheckOutTest@4722ef0c]" started-at="2025-06-09T22:55:30 EDT" name="setup" finished-at="2025-06-09T22:55:35 EDT" duration-ms="5186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CartAndCheckOutTest()[pri:1, instance:testCases.TC0004_CartAndCheckOutTest@4722ef0c]" started-at="2025-06-09T22:55:35 EDT" name="CartAndCheckOutTest" finished-at="2025-06-09T22:55:38 EDT" duration-ms="2919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartAndCheckOutTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0004_CartAndCheckOutTest@4722ef0c]" started-at="2025-06-09T22:55:38 EDT" name="teardown" finished-at="2025-06-09T22:55:38 EDT" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC0004_CartAndCheckOutTest -->
+    </test> <!-- TestLinux -->
+    <test started-at="2025-06-09T22:55:39 EDT" name="TestEdge" finished-at="2025-06-09T22:57:05 EDT" duration-ms="85449">
+      <class name="testCases.TC003_LoginDDT">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@480d3575]" started-at="2025-06-09T22:56:02 EDT" name="setup" finished-at="2025-06-09T22:56:05 EDT" duration-ms="3328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@480d3575]" started-at="2025-06-09T22:56:06 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:56:09 EDT" duration-ms="3039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prashantkunwar555@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adminadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@480d3575]" started-at="2025-06-09T22:56:09 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:56:20 EDT" duration-ms="11598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[caolina@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adminfhj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@480d3575]" started-at="2025-06-09T22:56:20 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:56:23 EDT" duration-ms="2940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prashantkunwar555@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adminadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@480d3575]" started-at="2025-06-09T22:56:23 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:56:35 EDT" duration-ms="11811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ram@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[buntamese]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@480d3575]" started-at="2025-06-09T22:56:35 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:56:47 EDT" duration-ms="12190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prashantkunwar555@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vomica@bn]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@480d3575]" started-at="2025-06-09T22:56:47 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:56:50 EDT" duration-ms="3090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prashantkunwar555@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adminadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method signature="loginDataDTesting(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.TC003_LoginDDT@480d3575]" started-at="2025-06-09T22:56:50 EDT" name="loginDataDTesting" data-provider="loginData" finished-at="2025-06-09T22:56:54 EDT" duration-ms="3337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prashantkunwar555@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adminadmin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDataDTesting -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC003_LoginDDT@480d3575]" started-at="2025-06-09T22:56:54 EDT" name="teardown" finished-at="2025-06-09T22:56:55 EDT" duration-ms="1157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC003_LoginDDT -->
+      <class name="testCases.TC001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@55cb6996]" started-at="2025-06-09T22:55:39 EDT" name="setup" finished-at="2025-06-09T22:55:46 EDT" duration-ms="7102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="RegistrationTest()[pri:2, instance:testCases.TC001_AccountRegistrationTest@55cb6996]" started-at="2025-06-09T22:55:46 EDT" name="RegistrationTest" finished-at="2025-06-09T22:55:50 EDT" duration-ms="3746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@55cb6996]" started-at="2025-06-09T22:55:50 EDT" name="teardown" finished-at="2025-06-09T22:55:52 EDT" duration-ms="1659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+      <class name="testCases.TC0004_CartAndCheckOutTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC0004_CartAndCheckOutTest@f1da57d]" started-at="2025-06-09T22:56:55 EDT" name="setup" finished-at="2025-06-09T22:56:59 EDT" duration-ms="3831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CartAndCheckOutTest()[pri:1, instance:testCases.TC0004_CartAndCheckOutTest@f1da57d]" started-at="2025-06-09T22:56:59 EDT" name="CartAndCheckOutTest" finished-at="2025-06-09T22:57:04 EDT" duration-ms="5049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartAndCheckOutTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC0004_CartAndCheckOutTest@f1da57d]" started-at="2025-06-09T22:57:04 EDT" name="teardown" finished-at="2025-06-09T22:57:05 EDT" duration-ms="1080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC0004_CartAndCheckOutTest -->
+      <class name="testCases.TC002_AccountLoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_AccountLoginTest@1807e3f6]" started-at="2025-06-09T22:55:52 EDT" name="setup" finished-at="2025-06-09T22:55:58 EDT" duration-ms="6454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestLogin()[pri:3, instance:testCases.TC002_AccountLoginTest@1807e3f6]" started-at="2025-06-09T22:55:58 EDT" name="TestLogin" finished-at="2025-06-09T22:56:01 EDT" duration-ms="2539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_AccountLoginTest@1807e3f6]" started-at="2025-06-09T22:56:01 EDT" name="teardown" finished-at="2025-06-09T22:56:02 EDT" duration-ms="1090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC002_AccountLoginTest -->
+    </test> <!-- TestEdge -->
+  </suite> <!-- Master Suite -->
+</testng-results>
