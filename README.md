@@ -91,12 +91,5 @@ target/test-output/
 You can find detailed test execution results, including ExtentReports if configured.
 
 
-
-## 🛟 Support
-
-For bugs or help, open an [Issue](https://github.com/Prashantkunwar/OpenCartV1.1/issues) on GitHub.
-
----
-
 Thanks for using this framework!
 **Happy testing! 🚀**
